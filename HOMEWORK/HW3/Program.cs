@@ -61,7 +61,6 @@
 // int zB = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Distance between A({xA}, {yA}, {zA}) and B({xB}, {yB}, {zB}) is -> { GetDistance(xA,yA,zA,xB,yB,zB)}");
 
-
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 // 3 -> 1, 8, 27

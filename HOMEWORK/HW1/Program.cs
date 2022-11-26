@@ -48,7 +48,7 @@ else Console.Write($"Number {numN} is Odd ");
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
-/*
+
 Console.Write("Please input number N = ");
 int numN = Convert.ToInt32(Console.ReadLine());
 int cnt = 2;
@@ -57,6 +57,6 @@ while (cnt <= numN)
     Console.Write($"{cnt}; ");
     cnt = cnt + 2;
 }
-*/
+
 
 

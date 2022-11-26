@@ -63,4 +63,4 @@ void SqrOl(int N)
 SqrOl(5);
 
 Console.Write ("Введите число N = ");
-int x = Convert.ToDouble(Console.ReadLine());
+double x = Convert.ToDouble(Console.ReadLine());

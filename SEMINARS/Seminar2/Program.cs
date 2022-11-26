@@ -49,29 +49,29 @@ void IsDiv (int num)
 
 //4 Задача.Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
 
-14  ->  нет
-46  ->  нет
-161 ->  да
+// 14  ->  нет
+// 46  ->  нет
+// 161 ->  да
 
 
 
-bool IsDiv (int num1)
-{
-    if (( num1 % 7 == 0 ) && ( num1 % 23 == 0 ))
+// bool IsDiv (int num1)
+// {
+//     if (( num1 % 7 == 0 ) && ( num1 % 23 == 0 ))
 
-    {
-        return true;
+//     {
+//         return true;
     
-    }
-     else
-    {
-      return false;
-    }
-}
-int A = 162;
-bool B =IsDiv (A);
+//     }
+//      else
+//     {
+//       return false;
+//     }
+// }
+// int A = 162;
+// bool B =IsDiv (A);
 
-Console.WriteLine(B);
+// Console.WriteLine(B);
 
 
 //int CutNumber (int num) 

@@ -60,3 +60,4 @@ int day = Convert.ToInt32(Console.ReadLine());
 bool result = IsWeekend(day);
 Console.WriteLine($"Day of the week is weekend -> {result}");
 */
+

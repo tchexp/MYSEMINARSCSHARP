@@ -64,9 +64,9 @@
 // int k1 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Please input b1 -> ");
 // int b1 = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Please input k1 -> ");
+// Console.Write("Please input k2 -> ");
 // int k2 = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Please input b1 -> ");
+// Console.Write("Please input b2 -> ");
 // int b2 = Convert.ToInt32(Console.ReadLine());
 // string output = FindIntersection(k1, b1, k2, b2);
 // Console.WriteLine($"k1 = {k1}, b1 = {b1}, k2 = {k2}, b2 = {b2} -> {output}");

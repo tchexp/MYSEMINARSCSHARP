@@ -38,21 +38,22 @@ void Show2DArray(int[,] array)
 
 void SelectinSort2DDesc(int[,] array)
 {
-    for (int k = 0; k < array.GetLength(0); k++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int i = 0; i < array.GetLength(1); i++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            int maxPosition = i;
-            for (int j = i + 1; j < array.GetLength(1); j++)
+            int maxPosition = j;
+            for (int k = j + 1; k < array.GetLength(1); k++)
             {
-                if (array[k,j] > array[k,maxPosition])
+                if (array[i, k] > array[i, maxPosition])
                 {
-                    maxPosition = j;
+                    maxPosition = k;
                 }
-                int temp = array[k,i];
-                array[k,i] = array[k,maxPosition];
-                array[k,maxPosition] = temp;
             }
+            int temp = array[i, j];
+            array[i, j] = array[i, maxPosition];
+            array[i, maxPosition] = temp;
+
         }
     }
 }
